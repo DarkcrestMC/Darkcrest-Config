@@ -597,9 +597,9 @@ Abilities:
       MustStartAboveWater: false
     WaterSpout:
       Enabled: true
-      Cooldown: 0
-      Duration: 0
-      Height: 16
+      Cooldown: 1500
+      Duration: 10000
+      Height: 13
       Interval: 50
       BlockSpiral: true
       Particles: false
@@ -718,7 +718,7 @@ Abilities:
       Range: 14
       Damage: 3
       Knockback: 2.0
-      Cooldown: 6000
+      Cooldown: 7
     AirBlast:
       Enabled: true
       Speed: 25
@@ -756,9 +756,9 @@ Abilities:
       PlayerPushFactor: 1
     AirSpout:
       Enabled: true
-      Cooldown: 0
-      Duration: 0
-      Height: 22
+      Cooldown: 1500
+      Duration: 13000
+      Height: 15
       Interval: 100
     AirSwipe:
       Enabled: true
@@ -912,11 +912,11 @@ Abilities:
       Speed: 1.2
     FireSpin:
       Enabled: true
-      Range: 7
+      Range: 5
       Damage: 3.0
       Knockback: 3.6
       Cooldown: 5000
-      Speed: 0.3
+      Speed: 0.7
     FireWheel:
       Enabled: true
       Range: 25.0
@@ -934,7 +934,7 @@ Abilities:
       Enabled: true
       Speed: 1.2
       Damage: 1
-      Cooldown: 6000
+      Cooldown: 7000
       FireTicks: 2
       Duration: 4000
     HeatControl:
@@ -1001,15 +1001,15 @@ Abilities:
       Cooldown: 10000
       BreakBlocks: false
       ExplosivePower: 1.0
-      Damage: 4
+      Damage: 3
       Radius: 4
-      Range: 35
+      Range: 30
       Speed: 25
     FireShield:
       Enabled: true
       Shield:
         Radius: 3
-        Duration: 0
+        Duration: 5000
         Cooldown: 2000
         FireTicks: 2
       Disc:
@@ -1127,9 +1127,9 @@ Abilities:
             Height: 21
             Duration: 20000
         AirSweep:
-          Damage: 6
-          Range: 21
-          Knockback: 4
+          Damage: 3
+          Range: 17
+          Knockback: 2
         Twister:
           Range: 24
           Height: 12
