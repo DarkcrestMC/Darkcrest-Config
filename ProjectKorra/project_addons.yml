@@ -1,0 +1,549 @@
+Properties:
+  MetallicBlocks:
+  - GOLD_BLOCK
+  - IRON_BLOCK
+  BendingBoard:
+    IndicatorMode: bold
+    Enabled: false
+    Title: Binds
+    EmptySlot: '&o~ Slot %d ~'
+Abilities:
+  Avatar:
+    EnergyBeam:
+      Enabled: true
+      Cooldown: 12000
+      Duration: 10000
+      Damage: 3
+      Range: 40
+      EasterEgg: true
+  Air:
+    Deafen:
+      Enabled: false
+      Cooldown: 10000
+      Duration: 6000
+    GaleGust:
+      Enabled: true
+      Cooldown: 6000
+      Damage: 4
+      Radius: 1
+      Range: 18
+      Knockback: 0.67
+    SonicWave:
+      Enabled: true
+      Cooldown: 4000
+      Range: 25
+      Width: 10
+      Nausea:
+        Duration: 120
+        Power: 2
+    VocalMimicry:
+      Enabled: true
+      Volume: 0.7
+      Pitch: 1
+      SoundBlacklist:
+      - SOUND_NAME_HERE
+    Zephyr:
+      Enabled: true
+      Cooldown: 1000
+      Radius: 4
+  Earth:
+    Accretion:
+      Enabled: true
+      Cooldown: 10000
+      Damage: 2
+      Blocks: 8
+      SelectRange: 6
+      RevertTime: 20000
+    Bulwark:
+      Enabled: true
+      Cooldown: 6000
+    Crumble:
+      Enabled: true
+      Cooldown: 3000
+      Radius: 6
+      SelectRange: 9
+      RevertTime: 60
+    Dig:
+      Enabled: false
+      Cooldown: 3000
+      Duration: -1
+      RevertTime: 3500
+      Speed: 0.51
+    EarthKick:
+      Enabled: true
+      Cooldown: 4000
+      Damage: 0.5
+      MaxBlocks: 9
+      LavaMultiplier: 1.5
+    LavaSurge:
+      Enabled: false
+      Cooldown: 4000
+      Damage: 0.5
+      Speed: 1.14
+      SelectRange: 5
+      SourceRadius: 3
+      MaxBlocks: 10
+      Burn:
+        Enabled: true
+        Duration: 3000
+    MagmaSlap:
+      Enabled: true
+      Cooldown: 4000
+      Offset: 1.5
+      Damage: 2
+      Length: 13
+      Width: 1
+      RevertTime: 7000
+    QuickWeld:
+      Enabled: true
+      Cooldown: 1000
+      RepairAmount: 25
+      RepairInterval: 1250
+    Shrapnel:
+      Enabled: true
+      Shot:
+        Cooldown: 2000
+        Damage: 2
+        Speed: 2.3
+      Blast:
+        Cooldown: 8000
+        Shots: 9
+        Spread: 24
+        Speed: 1.7
+  Fire:
+    ArcSpark:
+      Enabled: true
+      Speed: 6
+      Length: 7
+      Damage: 0.5
+      Cooldown: 6500
+      Duration: 4000
+      ChargeTime: 1000
+    CombustBeam:
+      Enabled: false
+      Range: 50
+      Cooldown: 3750
+      Minimum:
+        Power: 0.5
+        Angle: 1
+        ChargeTime: 1000
+      Maximum:
+        Power: 2.2
+        Angle: 70
+        ChargeTime: 5000
+      InterruptedDamage: 10
+    ChargeBolt:
+      Enabled: true
+      Damage: 1
+      Cooldown: 8000
+      Speed: 6
+      ChargeTime: 3000
+      BoltRange: 26
+      BlastRadius: 13
+      DischargeBoltCount: 6
+    Electrify:
+      Enabled: true
+      Cooldown: 8000
+      Duration: 4000
+      DamageInWater: 2
+      Slowness: 2
+      Weakness: 1
+    Explode:
+      Enabled: false
+      Cooldown: 4500
+      Damage: 2
+      Radius: 2.4
+      Knockback: 1.94
+      Range: 7.4
+    FireDisc:
+      Enabled: true
+      Damage: 1.5
+      Range: 32
+      Cooldown: 1700
+      Controllable: true
+      RevertCutBlocks: true
+      DropCutBlocks: false
+      CuttableBlocks:
+      - ACACIA_LOG
+      - OAK_LOG
+      - JUNGLE_LOG
+      - BIRCH_LOG
+      - DARK_OAK_LOG
+      - SPRUCE_LOG
+    Jets:
+      Enabled: true
+      Cooldown: 8000
+      Duration: 20000
+      FlySpeed: 0.75
+      HoverSpeed: 0.075
+      SpeedThreshold: 2.4
+      DamageThreshold: 2
+  Water:
+    RazorLeaf:
+      Enabled: true
+      Cooldown: 3000
+      Damage: 2
+      Radius: 0.7
+      Range: 24
+      Particles: 300
+    PlantArmor:
+      Enabled: false
+      Cooldown: 10000
+      Duration: 22000
+      Durability: 2000
+      SelectRange: 9
+      RequiredPlants: 14
+      Boost:
+        Swim: 3
+        Speed: 2
+        Jump: 2
+      SubAbilities:
+        VineWhip:
+          Cost: 50
+          Cooldown: 2000
+          Damage: 2
+          Range: 18
+        RazorLeaf:
+          Cost: 150
+        LeafShield:
+          Cost: 100
+          Cooldown: 1500
+          Radius: 2
+        Tangle:
+          Cost: 200
+          Cooldown: 7000
+          Radius: 0.45
+          Duration: 3000
+          Range: 18
+        Leap:
+          Cost: 100
+          Cooldown: 2500
+          Power: 1.4
+        Grapple:
+          Cost: 100
+          Cooldown: 2000
+          Range: 25
+          Speed: 1.24
+        LeafDome:
+          Cost: 400
+          Cooldown: 5000
+          Radius: 3
+        Regenerate:
+          Cooldown: 10000
+          RegenAmount: 150
+  Chi:
+    Jab:
+      Enabled: true
+      Cooldown: 3000
+      MaxUses: 4
+    NinjaStance:
+      Enabled: true
+      Cooldown: 0
+      Stealth:
+        Duration: 5000
+        ChargeTime: 2000
+      SpeedAmplifier: 5
+      JumpAmplifier: 5
+      DamageModifier: 0.75
+  LavaSurge:
+    Enabled: false
+    Cooldown: 4000
+    Damage: 2
+    Speed: 1.25
+    SelectRange: 5
+    SourceRadius: 3
+    MaxBlocks: 12
+    Burn:
+      Enabled: true
+      Duration: 3000
+  Explode:
+    Enabled: true
+    Cooldown: 4500
+    Damage: 1
+    Radius: 4
+    Knockback: 3
+    Range: 10
+  EarthKick:
+    Enabled: true
+    Cooldown: 4000
+    Damage: 1
+    MaxBlocks: 7
+    LavaMultiplier: 1.5
+  FireDisc:
+    Enabled: true
+    Damage: 2
+    Range: 25
+    Cooldown: 4000
+    Controllable: true
+    RevertCutBlocks: true
+    DropCutBlocks: false
+    CuttableBlocks:
+    - LOG
+    - LOG_2
+  MagmaSlap:
+    Enabled: true
+    Cooldown: 4000
+    Offset: 1.5
+    Damage: 2
+    Length: 14
+    Width: 1
+    RevertTime: 7000
+  Shrapnel:
+    Enabled: true
+    Shot:
+      Cooldown: 2000
+      Damage: 2
+      Speed: 2.3
+    Blast:
+      Cooldown: 3000
+      Shots: 7
+      Spread: 30
+      Speed: 1.9
+  Jab:
+    Enabled: true
+    Cooldown: 3000
+    MaxUses: 3
+  NinjaStance:
+    Enabled: true
+    Cooldown: 10000
+    Stealth:
+      Duration: 30000
+      ChargeTime: 2000
+    SpeedAmplifier: 2
+    JumpAmplifier: 4
+    DamageModifier: 0.4
+  EnergyBeam:
+    Enabled: true
+    Cooldown: 8000
+    Duration: 7000
+    Damage: 1
+    Range: 20
+    EasterEgg: true
+  QuickWeld:
+    Enabled: true
+    Cooldown: 1000
+    RepairAmount: 25
+    RepairInterval: 1250
+  RazorLeaf:
+    Enabled: true
+    Cooldown: 3000
+    Damage: 2
+    Radius: 0.6
+    Range: 20
+    Particles: 150
+  PlantArmor:
+    Enabled: false
+    Cooldown: 10000
+    Duration: 30000
+    Durability: 4000
+    SelectRange: 9
+    RequiredPlants: 10
+    Boost:
+      Swim: 1
+      Speed: 1
+      Jump: 1
+    SubAbilities:
+      VineWhip:
+        Cost: 50
+        Cooldown: 2000
+        Damage: 2
+        Range: 18
+      RazorLeaf:
+        Cost: 150
+      LeafShield:
+        Cost: 100
+        Cooldown: 1500
+        Radius: 2
+      Tangle:
+        Cost: 200
+        Cooldown: 7000
+        Radius: 0.45
+        Duration: 3000
+        Range: 18
+      Leap:
+        Cost: 100
+        Cooldown: 2500
+        Power: 1.4
+      Grapple:
+        Cost: 100
+        Cooldown: 2000
+        Range: 25
+        Speed: 1.24
+      LeafDome:
+        Cost: 400
+        Cooldown: 5000
+        Radius: 4
+      Regenerate:
+        Cooldown: 10000
+        RegenAmount: 350
+  GaleGust:
+    Enabled: true
+    Cooldown: 3000
+    Damage: 1
+    Radius: 1.2
+    Range: 25
+    Knockback: 1.92
+  Zephyr:
+    Enabled: true
+    Cooldown: 1000
+    Radius: 4
+  Dig:
+    Enabled: true
+    Cooldown: 6000
+    Duration: -1
+    RevertTime: 3500
+    Speed: 0.52
+  Accretion:
+    Enabled: true
+    Cooldown: 7000
+    Damage: 1
+    Blocks: 10
+    SelectRange: 20
+    RevertTime: 20000
+  Crumble:
+    Enabled: true
+    Cooldown: 2000
+    Radius: 6
+    SelectRange: 9
+    RevertTime: 30
+  ArcSpark:
+    Enabled: true
+    Speed: 6
+    Length: 7
+    Damage: 1
+    Cooldown: 7000
+    Duration: 4000
+    ChargeTime: 2000
+    AttractiveBlocks:
+    - GOLDEN_BLOCK
+    - IRON_BLOCK
+Combos:
+  Air:
+    Tailwind:
+      Enabled: false
+      Cooldown: 7000
+      Duration: 22000
+      Speed: 9
+  Earth:
+    RockSlide:
+      Enabled: true
+      Cooldown: 7000
+      Damage: 1
+      Knockback: 0.9
+      Knockup: 0.4
+      Speed: 1.1
+      RequiredRockCount: 6
+  Fire:
+    FlameBreath:
+      Enabled: true
+      Cooldown: 8000
+      Damage: 1.25
+      FireTick: 30
+      Range: 5
+      Duration: 4000
+      Burn:
+        Ground: true
+        Entities: true
+      Rainbow: true
+    TurboJet:
+      Enabled: true
+      Cooldown: 12000
+      Speed: 1.95
+  Water:
+    LeafStorm:
+      Enabled: true
+      Cooldown: 7000
+      PlantArmorCost: 800
+      LeafCount: 10
+      LeafSpeed: 14
+      Damage: 0.5
+      Radius: 6
+    MistShards:
+      Enabled: true
+      Cooldown: 7000
+      Damage: 1
+      Range: 20
+      IcicleCount: 8
+  Chi:
+    ChiblockJab:
+      Enabled: true
+      Cooldown: 5000
+      Duration: 2000
+    FlyingKick:
+      Enabled: true
+      Cooldown: 4000
+      Damage: 2.0
+      LaunchPower: 1.85
+    WeakeningJab:
+      Enabled: true
+      Cooldown: 6000
+      Duration: 4000
+      Modifier: 1.5
+  FlameBreath:
+    Enabled: true
+    Cooldown: 8000
+    Damage: 1
+    FireTick: 30
+    Range: 6
+    Duration: 5000
+    Burn:
+      Ground: true
+      Entities: true
+    Rainbow: true
+  ChiblockJab:
+    Enabled: true
+    Cooldown: 5000
+    Duration: 3000
+  FlyingKick:
+    Enabled: true
+    Cooldown: 4000
+    Damage: 2.0
+    LaunchPower: 2.2
+  WeakeningJab:
+    Enabled: true
+    Cooldown: 6000
+    Duration: 3000
+    Modifier: 1.5
+  LeafStorm:
+    Enabled: true
+    Cooldown: 8000
+    PlantArmorCost: 800
+    LeafCount: 10
+    LeafSpeed: 12
+    Damage: 0.5
+    Radius: 10
+  Tailwind:
+    Enabled: false
+    Cooldown: 7000
+    Duration: 22000
+    Speed: 8
+  Incinerate:
+    Enabled: true
+    Cooldown: 8000
+    Duration: 6000
+    FireTicks: 30
+    MaxLength: 6
+Passives:
+  Earth:
+    LandLaunch:
+      Enabled: false
+      Power: 3
+  Water:
+    Hydrojet:
+      Enabled: true
+      Speed: 8
+  Chi:
+    Dodging:
+      Enabled: true
+      Chance: 18
+    Camouflage:
+      Enabled: true
+  Dodging:
+    Enabled: true
+    Chance: 5
+  LandLaunch:
+    Enabled: false
+    Power: 1
+  Hydrojet:
+    Enabled: true
+    Power: 6

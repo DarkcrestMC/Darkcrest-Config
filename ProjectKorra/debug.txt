@@ -1,0 +1,363 @@
+ProjectKorra Debug: Paste this on http://pastie.org and put it in your bug report thread.
+====================
+
+
+Date Created: 2020/05/08 00:53:17
+Java Version: 1.8.0_242
+Bukkit Version: git-Paper-227 (MC: 1.15.2)
+
+ProjectKorra (Core) Information
+====================
+Version: 1.8.9
+Author: [ProjectKorra]
+
+Supported Plugins
+====================
+WorldGuard v7.0.2-SNAPSHOT;bf2593e
+Towny v0.95.2.15
+LWC v2.2.4-52f8c06
+
+Plugins Hooking Into ProjectKorra (Core)
+====================
+Spirits vBETA-1.0.13
+ProjectArenas v1.0.4
+ProjectAddons v1.0.6
+JedCore v2.9.3-Spigot1.15-PK1.8.9
+
+Ability Information
+====================
+AcrobatStance - STOCK
+Acrobatics - STOCK
+AirAgility - STOCK
+AirBlast - STOCK
+AirBurst - STOCK
+AirSaturation - STOCK
+AirScooter - STOCK
+AirShield - STOCK
+AirSpout - STOCK
+AirStream - STOCK
+AirSuction - STOCK
+AirSweep - STOCK
+AirSwipe - STOCK
+AvatarState - STOCK
+Blaze - STOCK
+Blaze - STOCK
+Blaze - STOCK
+Bloodbending - STOCK
+Bottlebending - STOCK
+Catapult - STOCK
+ChiAgility - STOCK
+ChiSaturation - STOCK
+Collapse - STOCK
+Collapse - STOCK
+Combustion - STOCK
+DensityShift - STOCK
+EarthArmor - STOCK
+EarthBlast - STOCK
+EarthDome - STOCK
+EarthDome - STOCK
+EarthDomeHidden - STOCK
+EarthPillars - STOCK
+EarthSmash - STOCK
+EarthTunnel - STOCK
+Extraction - STOCK
+FastSwim - STOCK
+FerroControl - STOCK
+FireBlast - STOCK
+FireBlast - STOCK
+FireBurst - STOCK
+FireJet - STOCK
+FireKick - STOCK
+FireManipulation - STOCK
+FireShield - STOCK
+FireSpin - STOCK
+FireWheel - STOCK
+Flight - STOCK
+GracefulDescent - STOCK
+HealingWaters - STOCK
+HeatControl - STOCK
+HighJump - STOCK
+HydroSink - STOCK
+IceBlast - STOCK
+IceBullet - STOCK
+IceSpike - STOCK
+IceSpike - STOCK
+IceSpike - STOCK
+IceWave - STOCK
+Illumination - STOCK
+Immobilize - STOCK
+JetBlast - STOCK
+JetBlaze - STOCK
+LavaFlow - STOCK
+LavaSurge - STOCK
+LavaSurgeWall - STOCK
+LavaSurgeWave - STOCK
+Lightning - STOCK
+MetalClips - STOCK
+OctopusForm - STOCK
+Paralyze - STOCK
+PhaseChange - STOCK
+PlantRegrowth - STOCK
+QuickStrike - STOCK
+RaiseEarth - STOCK
+RaiseEarth - STOCK
+RapidPunch - STOCK
+Shockwave - STOCK
+Shockwave - STOCK
+Smokescreen - STOCK
+Suffocate - STOCK
+Surge - STOCK
+Surge - STOCK
+SwiftKick - STOCK
+Tornado - STOCK
+Torrent - STOCK
+Torrent - STOCK
+Tremorsense - STOCK
+Twister - STOCK
+WallOfFire - STOCK
+WarriorStance - STOCK
+WaterArms - STOCK
+WaterArms - STOCK
+WaterArms - STOCK
+WaterArms - STOCK
+WaterBubble - STOCK
+WaterManipulation - STOCK
+WaterSpout - STOCK
+WaterSpout - STOCK
+Accretion - UNOFFICAL
+Afterglow - UNOFFICAL
+Agility - UNOFFICAL
+Agility - UNOFFICAL
+AirBlade - UNOFFICAL
+AirBreath - UNOFFICAL
+AirGlide - UNOFFICAL
+AirPunch - UNOFFICAL
+AirSlam - UNOFFICAL
+Alleviate - UNOFFICAL
+ArcSpark - UNOFFICAL
+Aromatherapy - UNOFFICAL
+Awakening - UNOFFICAL
+Backstab - UNOFFICAL
+BloodPuppet - UNOFFICAL
+Bloodbending - UNOFFICAL
+Blossom - UNOFFICAL
+Bola - UNOFFICAL
+Bulwark - UNOFFICAL
+Camouflage - UNOFFICAL
+ChargeBolt - UNOFFICAL
+ChiblockJab - UNOFFICAL
+Combustion - UNOFFICAL
+Corruption - UNOFFICAL
+CosmicBlast - UNOFFICAL
+Crevice - UNOFFICAL
+Crumble - UNOFFICAL
+DaggerThrow - UNOFFICAL
+DarkAlliance - UNOFFICAL
+DarkBeam - UNOFFICAL
+DarkBeam - UNOFFICAL
+Deafen - UNOFFICAL
+Discharge - UNOFFICAL
+Dodging - UNOFFICAL
+Drain - UNOFFICAL
+Drain - UNOFFICAL
+EarthKick - UNOFFICAL
+EarthKick - UNOFFICAL
+EarthLine - UNOFFICAL
+EarthPillar - UNOFFICAL
+EarthShard - UNOFFICAL
+EarthSurf - UNOFFICAL
+Electrify - UNOFFICAL
+ElementSphere - UNOFFICAL
+ElementSphere Air - UNOFFICAL
+ElementSphere Earth - UNOFFICAL
+ElementSphere Fire - UNOFFICAL
+ElementSphere Stream - UNOFFICAL
+ElementSphere Water - UNOFFICAL
+EnergyBeam - UNOFFICAL
+Enlightenment - UNOFFICAL
+Explode - UNOFFICAL
+FireBall - UNOFFICAL
+FireBreath - UNOFFICAL
+FireComet - UNOFFICAL
+FireDisc - UNOFFICAL
+FirePunch - UNOFFICAL
+FireShots - UNOFFICAL
+FireSki - UNOFFICAL
+Fissure - UNOFFICAL
+FlameBreath - UNOFFICAL
+Float - UNOFFICAL
+FlyingKick - UNOFFICAL
+FrostBreath - UNOFFICAL
+GaleGust - UNOFFICAL
+Hydrojet - UNOFFICAL
+IceClaws - UNOFFICAL
+IceWall - UNOFFICAL
+Infest - UNOFFICAL
+Intoxicate - UNOFFICAL
+Jab - UNOFFICAL
+Jets - UNOFFICAL
+LavaDisc - UNOFFICAL
+LavaThrow - UNOFFICAL
+LeafStorm - UNOFFICAL
+LightBeam - UNOFFICAL
+LightBeam - UNOFFICAL
+LightningBurst - UNOFFICAL
+Maelstrom - UNOFFICAL
+MagmaBlast - UNOFFICAL
+MagmaSlap - UNOFFICAL
+MagnetShield - UNOFFICAL
+Meditate - UNOFFICAL
+MetalArmor - UNOFFICAL
+MetalFragments - UNOFFICAL
+MetalHook - UNOFFICAL
+MetalShred - UNOFFICAL
+MudSurge - UNOFFICAL
+Napalm - UNOFFICAL
+Nightmare - UNOFFICAL
+NinjaStance - UNOFFICAL
+Onslaught - UNOFFICAL
+Orb - UNOFFICAL
+Pandemonium - UNOFFICAL
+Phase - UNOFFICAL
+PlantArmor - UNOFFICAL
+PlantBurst - UNOFFICAL
+PocketSand - UNOFFICAL
+Possess - UNOFFICAL
+QuickWeld - UNOFFICAL
+RazorLeaf - UNOFFICAL
+Rejuvenate - UNOFFICAL
+RockSlide - UNOFFICAL
+Safeguard - UNOFFICAL
+Sanctuary - UNOFFICAL
+SandBlast - UNOFFICAL
+Shackle - UNOFFICAL
+Shadow - UNOFFICAL
+Shelter - UNOFFICAL
+Shrapnel - UNOFFICAL
+ShrapnelBlast - UNOFFICAL
+SinisterAura - UNOFFICAL
+Skyrocket - UNOFFICAL
+SonicBlast - UNOFFICAL
+SonicWave - UNOFFICAL
+SpiritBeam - UNOFFICAL
+Stream - UNOFFICAL
+Strike - UNOFFICAL
+SwiftStream - UNOFFICAL
+TurboJet - UNOFFICAL
+Vanish - UNOFFICAL
+VocalMimicry - UNOFFICAL
+WakeFishing - UNOFFICAL
+WallRun - UNOFFICAL
+WaterBlast - UNOFFICAL
+WaterBlock - UNOFFICAL
+WaterFlow - UNOFFICAL
+WaterGimbal - UNOFFICAL
+WeakeningJab - UNOFFICAL
+Wish - UNOFFICAL
+WishfulThinking - UNOFFICAL
+Zephyr - UNOFFICAL
+
+Collection Sizes
+====================
+CoreAbility: INSTANCES size=22
+CoreAbility: INSTANCES_BY_PLAYER size=6
+CoreAbility: INSTANCES_BY_CLASS size=105
+CoreAbility: ABILITIES_BY_NAME size=208
+CoreAbility: ABILITIES_BY_CLASS size=230
+CoreAbility: ADDON_PLUGINS size=4
+CoreAbility: ATTRIBUTE_FIELDS size=123
+EarthAbility: PREVENT_EARTHBENDING size=0
+EarthAbility: MOVED_EARTH size=9
+EarthAbility: TEMP_AIR_LOCATIONS size=2
+EarthAbility: PREVENT_PHYSICS size=0
+ElementalAbility: TRANSPARENT size=453
+FireAbility: TEMP_FIRE size=0
+ComboManager: RECENTLY_USED size=7
+ComboManager: COMBO_ABILITIES size=37
+ComboManager: AUTHORS size=6
+ComboManager: DESCRIPTIONS size=36
+ComboManager: INSTRUCTIONS size=36
+MultiAbilityManager: playerAbilities size=0
+MultiAbilityManager: playerSlot size=0
+MultiAbilityManager: playerBoundAbility size=0
+MultiAbilityManager: multiAbilityList size=4
+PassiveManager: PASSIVES size=17
+PassiveManager: PASSIVE_CLASSES size=17
+AirBlast: ORIGINS size=1
+FlightMultiAbility: requestedMap size=0
+FlightMultiAbility: requestTime size=0
+FlightMultiAbility: flying size=0
+AvatarState: START_TIMES size=0
+BendingManager: events size=0
+BendingPlayer: PLAYERS size=34
+Smokescreen: SNOWBALLS size=0
+Smokescreen: BLINDED_TIMES size=0
+Smokescreen: BLINDED_TO_ABILITY size=0
+Commands: invincible size=0
+PKCommand: instances size=20
+ConfigType: ALL_TYPES size=3
+LavaFlow: TEMP_LAVA_BLOCKS size=0
+LavaFlow: TEMP_LAND_BLOCKS size=0
+LavaFlow: TEMP_AIR_BLOCKS size=0
+LavaSurge: ALL_FALLING_BLOCKS size=0
+LavaSurgeWall: AFFECTED_BLOCKS size=0
+LavaSurgeWall: WALL_BLOCKS size=0
+MetalClips: ENTITY_CLIPS_COUNT size=0
+MetalClips: TARGET_TO_ABILITY size=0
+DensityShift: SAND_BLOCKS size=0
+Ripple: BLOCKS size=0
+Tremorsense: BLOCKS size=0
+Element: ALL_ELEMENTS size=21
+BlazeArc: IGNITED_BLOCKS size=0
+BlazeArc: IGNITED_TIMES size=0
+BlazeArc: REPLACED_BLOCKS size=0
+FireBlastCharged: EXPLOSIONS size=0
+HeatControl: MELTED_BLOCKS size=0
+Illumination: BLOCKS size=0
+FireDamageTimer: INSTANCES size=9
+FireDamageTimer: TIMES size=8
+GeneralMethods: BLOCK_CACHE size=33
+GeneralMethods: INVINCIBLE size=0
+Manager: MANAGERS size=3
+HorizontalVelocityTracker: instances size=0
+Preset: presets size=9
+Preset: externalPresets size=1
+PKListener: BENDING_ENTITY_DEATH size=9
+PKListener: BENDING_PLAYER_DEATH size=0
+PKListener: RIGHT_CLICK_INTERACT size=0
+PKListener: TOGGLED_OUT size=4
+PKListener: JUMPS size=19
+BlockSource: playerSources size=19
+MovementHandler: handlers size=13
+PassiveHandler: FOOD size=36
+RevertChecker: earthRevertQueue size=0
+RevertChecker: airRevertQueue size=0
+TempArmor: INSTANCES size=0
+TempArmor: ORIGINAL size=0
+TempArmorStand: tempStands size=0
+TempBlock: instances size=22
+TempBlock: REVERT_QUEUE size=18
+TempPotionEffect: instances size=0
+Bloodbending: TARGETED_ENTITIES size=0
+IceWave: FROZEN_BLOCKS size=0
+PhaseChange: PLAYER_BY_BLOCK size=0
+WaterArmsSpear: ICE_BLOCKS size=0
+WaterArmsWhip: GRABBED_ENTITIES size=0
+SurgeWall: AFFECTED_BLOCKS size=0
+SurgeWall: WALL_BLOCKS size=0
+SurgeWall: SOURCE_BLOCKS size=0
+Torrent: FROZEN_BLOCKS size=0
+WaterManipulation: AFFECTED_BLOCKS size=0
+WaterSpout: AFFECTED_BLOCKS size=0
+WaterSpoutWave: FROZEN_BLOCKS size=0
+
+CoreAbility Debugger
+====================
+Class->UUID's in memory: 6
+Abilities in memory:
+EarthPillars: 2
+ChiAgility: 6
+AirAgility: 18
+Camouflage: 6
+Dodging: 6
+Hydrojet: 6
