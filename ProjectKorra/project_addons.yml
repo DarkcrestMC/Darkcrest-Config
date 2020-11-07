@@ -159,7 +159,7 @@ Abilities:
       Enabled: true
       Damage: 1.5
       Range: 32
-      Cooldown: 1700
+      Cooldown: 2000
       Controllable: true
       RevertCutBlocks: true
       DropCutBlocks: false
