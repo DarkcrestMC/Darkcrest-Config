@@ -24,7 +24,7 @@ Abilities:
     GaleGust:
       Enabled: true
       Cooldown: 6000
-      Damage: 4
+      Damage: 3
       Radius: 1
       Range: 18
       Knockback: 0.67
